@@ -15,3 +15,9 @@ Proje planında görevler paylaştırıldı ve sana şu görevler düşüyor:
 (3) localStorage'da tutulan değeri ve onu güncelleyecek bir metodu dönmeli.
 [ ] hooks klasörü içinde `useDarkMode.jsx` dosya ismi ile custom hook oluşturmak.
 (1) Bu hook, useState gibi çalışmalı ve darkMode ayarını useLocalStorage hook'unu kullanarak localStorage üzerinden yönetmeli.
+
+## Önemli Notlar
+
+- Proje dizinindeki `user.json` dosyasını bulun ve `user_id` alanını NextGen proje ekranında görünen kendi `user_id` değeriniz ile güncelleyin.
+- Geliştirme sırasında testleri izlemek için `npm test` komutunu kullanın.
+- Testleri çalıştırıp skoru NextGen'e kaydetmek için `npm run sendresults` komutunu kullanın.
